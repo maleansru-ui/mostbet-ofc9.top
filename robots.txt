@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /?s=
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /mostbet
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+Disallow: /mostbet
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+Disallow: /mostbet
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+Disallow: /mostbet
+
+Host: mostbet-ofc9.top
+Sitemap: https://mostbet-ofc9.top/sitemap.xml
